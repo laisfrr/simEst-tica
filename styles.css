@@ -13,7 +13,8 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin: 0 200px;
+  margin-bottom: 50px;
+  margin-left: 200px;
   padding: 20px;
   width: 500px;
   height: 70vh;
@@ -48,7 +49,7 @@
   color: #f1e3e0;
   border: none;
   margin: 0 auto;
-  height: 250px;
+  padding: 10px;
   width: 50%;
   border-radius: 5px;
   cursor: pointer;
@@ -74,7 +75,7 @@ header {
 
 img {
   width: 45vw;
-  height: 80vh;
+  height: 85vh;
 }
 nav > ul {
   display: flex;
@@ -155,6 +156,15 @@ footer {
   position: absolute;
   width: 100%;
 }
+#main-index > footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
 
 /* SERVIÇOS */
 #main-servico {
@@ -202,6 +212,7 @@ footer {
 #main-quem-somos {
   display: flex;
   flex-direction: column;
+  margin: 30px;
   align-items: center;
 }
 #main-quem-somos > div > section > h2 {
@@ -242,7 +253,8 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  margin: 20px;
+  margin: 2%;
+  /* margin: 20px; */
 }
 
 #main-faq > section > ol {
@@ -263,10 +275,10 @@ footer {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin: 0 200px;
   padding: 20px;
-  width: 80%;
-  height: 70vh;
+
+  width: 50%;
+  height: 100%;
   color: #f1e3e0;
   box-shadow: -16px 16px 15px -3px rgba(0, 0, 0, 0.1);
   font-family: 'Lato', sans-serif;
@@ -303,8 +315,7 @@ footer {
   background-color: #000;
   color: #f1e3e0;
   border: none;
-  margin: 0 auto;
-  height: 50px;
+  padding: 15px;
   width: 50%;
   border-radius: 5px;
   cursor: pointer;
@@ -315,4 +326,18 @@ footer {
   background-color: #f1e3e0;
   color: #000;
   transition: 0.5s;
+}
+
+#main-faq > section > form > fieldset > textarea {
+  padding: 10px;
+}
+
+#main-faq > footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
